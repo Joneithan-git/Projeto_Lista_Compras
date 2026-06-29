@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff6b6b, #feca57);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+}
+
+.container .logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .logo-container img {
+    width: 40%;
+
+}
+
+h1 {
+    color: #ff6b6b;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+form button {
+    background: #1dd1a1;
+    color: white;
+    padding: 12px 18px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #10ac84;
+}
+
+#mensagem {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contador-box {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+#contador {
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5f6fa;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.item-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.marcador {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #1dd1a1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.comprado .marcador {
+    background: #1dd1a1;
+}
+
+.comprado .texto {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.remover {
+    background: #ff4757;
+    color: white;
+    padding: 8px 12px;
+}
+
+.remover:hover {
+    background: #e84118;
+}
+.acoes{
+    margin-top:15px;
+    text-align:center;
+}
+
+#limparLista{
+    background:#576574;
+    color:white;
+    padding:10px 18px;
+    font-weight:bold;
+}
+
+#limparLista:hover{
+    background:#2f3640;
+}
+
+.vazio{
+    text-align:center;
+    color:#999;
+    font-style:italic;
+    margin-top:15px;
+}

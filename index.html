@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="logo-container">
+            <img src="Midia/LogoTipoMarketing.png" alt="Logo">
+
+            <h1>🛒 Lista de Compras</h1>
+        </div>
+        <form id="formulario">
+            <input type="text" id="produto" placeholder="Digite um produto">
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <p id="mensagem"></p>
+
+        <div class="contador-box">
+            Produtos cadastrados:
+            <span id="contador">0</span>
+        </div>
+        <div class="acoes">
+            <button id="limparLista" type="button">🗑 Limpar Lista</button>
+        </div>
+        <ul id="lista"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
