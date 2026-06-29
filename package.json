@@ -1,0 +1,12 @@
+{
+  "name": "lista-compras",
+  "version": "1.0.0",
+  "description": "Lista de Compras com Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
